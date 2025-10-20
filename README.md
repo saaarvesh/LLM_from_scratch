@@ -11,12 +11,14 @@ Learning shouldn’t stop just because hardware does 🚀
 
 Initial training was done on a small storybook dataset called **“Verdic”**, just to get things working end-to-end.
 
+After training and fine-tuning, I also added **Top-k sampling** and **Temperature scaling** during text generation to improve diversity and control randomness.
+
 ---
 
 ## ⚙️ Overview
 
 This project started as a learning experiment and slowly evolved into a complete, working GPT-2 replica —  
-from **tokenizer → embeddings → transformer → language model head → training → fine-tuning → evaluation**.
+from **tokenizer → embeddings → transformer → language model head → training → Sampling Improvements: Top-k & Temperature Scaling → fine-tuning → evaluation**.
 
 Then I didn’t stop there 😄  
 After verifying my model architecture, I:
