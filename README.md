@@ -5,6 +5,14 @@ Hi 👋
 This repo exists because I wanted to *really* understand every nut and bolt of how **large language models (LLMs)** like GPT work.  
 So I built the **complete GPT-2 architecture (124M parameters)** entirely **from scratch in PyTorch**, layer by layer — no shortcuts, no libraries, just me and `Pytorch`.
 
+This also included **manually implementing**:
+- Weight-splitting logic for **Multi-Head Attention (MHA)**
+- Residual **skip connections**
+- The **GELU** activation function
+- **Layer Normalization**
+
+Everything — from attention matrix math to embedding projections — was coded step by step to fully understand how GPT actually works under the hood.
+
 And yeah... I trained it **on CPU** 😅.  
 No GPU, no TPU — just pure curiosity and stubbornness.  
 Learning shouldn’t stop just because hardware does 🚀  
